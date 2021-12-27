@@ -60,10 +60,10 @@ const Header = () => {
                                 </div>
                             </div>
                             <div className='mobileicons'>
-                                <button onClick={handleShow}>
+                                <button className={show ? 'closeIcons' : "" } onClick={handleShow}>
+                                    <div className='linebar one'></div>
                                     <div className='linebar'></div>
-                                    <div className='linebar'></div>
-                                    <div className='linebar'></div>
+                                    <div className='linebar two'></div>
                                 </button>
                             </div>
                         </Col>

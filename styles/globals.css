@@ -51,8 +51,15 @@ a {
   --t-text-2: #b658ff;
   --heading-1: #85dcee;
   --t-text-yellow: #faf34d;
-}
 
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+}
 /* utilities  */
 
 /* Header area */
@@ -557,6 +564,41 @@ button.mint:hover {
 .spacesMobile {
   display: none;
 }
+.closeIcons {
+  position: relative;
+}
+.closeIcons::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.closeIcons::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  background-color: #fff;
+  top: 10px;
+  transform: rotate(39deg);
+  opacity: 0.7;
+}
+.closeIcons::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  background-color: #fff;
+  top: 10px;
+  transform: rotate(137deg);
+  opacity: 0.7;
+}
+.closeIcons div {
+  background-color: transparent !important;
+}
 @media only screen and (min-width: 1100px) {
   .container {
     padding-left: 74px;
@@ -909,6 +951,9 @@ h4.Okben.Tahasertac {
 }
 h4.Okben.Martiam {
   color: #85dcee;
+}
+.offmenu a:hover {
+  opacity: 0.7;
 }
 @media only screen and (max-width: 351px) {
   .mobileicons {
