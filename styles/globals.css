@@ -897,6 +897,19 @@ button.mint:hover {
   margin-bottom: -26px !important;
   z-index: 999;
 }
+.bodyText button img {
+  width: 2rem;
+  height: 2rem;
+}
+h4.Okben.Sokos6 {
+  color: #8dff7a;
+}
+h4.Okben.Tahasertac {
+  color: #b658ff;
+}
+h4.Okben.Martiam {
+  color: #85dcee;
+}
 @media only screen and (max-width: 351px) {
   .mobileicons {
     margin-top: -65px;

@@ -41,8 +41,14 @@ const MinitSection = () => {
                 <Modal.Body>
                     <div className='bodyText'>
                         <h4>Choose your provider</h4>
-                        <button>Metamask</button>
-                        <button>TrustConnect</button>
+                        <button>
+                            Metamask
+                            <img src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg" alt="" />
+                        </button>
+                        <button>
+                            TrustConnect
+                            <img src="https://rinkeby.etherscan.io/images/svg/brands/walletconnect.svg" alt="" />
+                        </button>
                     </div>
                 </Modal.Body>
                 

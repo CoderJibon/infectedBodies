@@ -59,7 +59,7 @@ const Team = () => {
                                         <Image src="/team/emresto.webp" width="266" height="266" ></Image>
                                     </div>
                                     <div className='titleTeam'>
-                                        <h4 className='Okben Emresto'>Emresto</h4>
+                                        <h4 className='Okben Tahasertac'>Emresto</h4>
                                         <h3>Infected Artist</h3>
                                     </div>
                                     <div className='socialIcons'>
@@ -88,7 +88,7 @@ const Team = () => {
                                         <Image src="/team/denkov.webp" width="266" height="266" ></Image>
                                     </div>
                                     <div className='titleTeam'>
-                                        <h4 className='Okben Denkovnik'>Denkovnik</h4>
+                                        <h4 className='Okben Sokos6'>Denkovnik</h4>
                                         <h3>Infected Website Designer</h3>
                                     </div>
                                     <div className='socialIcons'>
@@ -100,11 +100,6 @@ const Team = () => {
 
                            </div>
                         </div>
-                       
-                       
-                       
-                      
-                        
                     </Col>
                 </Row>
             </Container>
