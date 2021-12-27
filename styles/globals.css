@@ -54,10 +54,6 @@ a {
 }
 
 /* utilities  */
-.container {
-  padding-left: 74px;
-  padding-right: 74px;
-}
 
 /* Header area */
 .left {
@@ -510,11 +506,11 @@ h4.Okben {
 .mintleft h2 {
   color: #faf34d;
   font-family: "Squada One", cursive;
-  font-size: 60px;
   font-weight: 400;
-  line-height: 60px;
   margin: 0px 0px 3rem;
   margin-bottom: 3rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .mintleft button:hover {
   opacity: 0.9;
@@ -549,6 +545,366 @@ h4.Okben {
 button.mint:hover {
   opacity: 0.9;
 }
-@media only screen and (min-width: 1024px) {
-  /* welcome section */
+.mobileicons {
+  display: none;
+}
+.logoBox .mobile {
+  display: none;
+}
+.forMobile {
+  display: none;
+}
+.spacesMobile {
+  display: none;
+}
+@media only screen and (min-width: 1100px) {
+  .container {
+    padding-left: 74px;
+    padding-right: 74px;
+    max-width: 1140px !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 1024px !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .spacesMobile {
+    display: block;
+  }
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 768px !important;
+  }
+  .mobileicons {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .mobileicons .linebar {
+    width: 100%;
+    height: 2px;
+    flex: 1 1 0%;
+    background-color: #fff;
+    opacity: 0.7;
+  }
+  .mobileicons button {
+    background-color: transparent;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    text-transform: none;
+    border: none;
+    height: 1.5rem;
+    width: 2rem;
+    gap: 8px;
+    display: grid;
+    cursor: pointer;
+  }
+  .mobileicons {
+    display: flex;
+    align-items: center;
+  }
+  .left {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .right {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .logoBox {
+    width: 4rem;
+    height: 4rem;
+  }
+  .logo {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+  .header {
+    padding-top: 2rem;
+  }
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    z-index: 21;
+  }
+  .bannerSection {
+    padding-top: 11rem;
+  }
+  .bgBanner {
+    padding-bottom: 0;
+  }
+  section {
+    padding: 0 !important;
+  }
+  .contentBox h2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .welcomeCol {
+    display: grid;
+    gap: 0;
+  }
+  .contentBox p strong {
+    letter-spacing: 0.3px;
+  }
+  .welComeimage {
+    margin: auto;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .headline.logoBox span {
+    display: none !important;
+  }
+  .headline .logoBox .mobile {
+    display: block !important;
+  }
+  .headline .logoBox {
+    width: 100px;
+    height: 108px;
+  }
+  .headline .line {
+    gap: 0px;
+  }
+  .headline .logoBox span {
+    display: none !important;
+  }
+  .specsContent {
+    display: grid;
+  }
+  .specsContent h2 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .specsContent {
+    gap: 0;
+  }
+  .spaecsGalleryImage.spaecsItem {
+    display: none;
+  }
+  .forMobile img {
+    width: 100%;
+  }
+  .forMobile {
+    display: block;
+    margin-top: 3rem;
+  }
+  .spaecsBg {
+    display: none;
+  }
+  .spacesMobile h3 {
+    color: #85dcee;
+    font-family: Squada One, cursive;
+    font-size: 40px;
+  }
+  .spacesMobile {
+    margin-top: 3rem;
+  }
+  .spacesMobile span {
+    font-size: 3.75rem;
+    line-height: 1;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .spacesMobile button {
+    background-color: #85dcee;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 3rem;
+    line-height: 1;
+    width: 100%;
+    color: #000;
+    margin-top: 1.5rem;
+  }
+  .Rood h2 {
+    margin-bottom: 3rem;
+    font-family: Squada One, cursive;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .roodspace .item {
+    display: -moz-box;
+    display: flex;
+    grid-gap: 2rem;
+    gap: 2rem;
+    -moz-box-align: start;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+  }
+  .roodspace .item {
+    align-items: baseline;
+  }
+  .textwithimage {
+    display: grid;
+  }
+  .textLeftwighOutImage .item {
+    align-items: baseline;
+  }
+  .roodImage {
+    margin: auto;
+  }
+  .vision h2 {
+    margin-bottom: 3rem;
+    font-family: Squada One, cursive;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .visionBox {
+    display: grid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .our br {
+    display: none;
+  }
+  .our {
+    margin-bottom: 1.5rem !important;
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
+  .visionBox {
+    gap: 0;
+  }
+  #team {
+    padding: 0 !important;
+  }
+  #team h2 {
+    margin-bottom: 3rem !important;
+    font-family: Squada One, cursive;
+    font-size: 3rem !important;
+    line-height: 1;
+  }
+  .memberCount {
+    row-gap: 2.5rem;
+    column-gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .member span {
+    width: 100% !important;
+  }
+  .titleTeam h4 {
+    margin-top: 10px;
+  }
+  .titleTeam h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .socialIcons {
+    margin-top: 6px;
+  }
+  .minitbody {
+    display: grid;
+  }
+  .minit {
+    padding-top: 11rem;
+  }
+  .mintleft {
+    width: 100%;
+  }
+  .minitbody {
+    padding: 3rem;
+  }
+}
+.offcanvas-end {
+  top: 144px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.offmenu a {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  display: block;
+  font-family: Overpass, sans-serif;
+  color: #fff;
+}
+.offmenu {
+  display: grid;
+  gap: 2.5rem;
+}
+.offmenuBox {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.offmenuBox .iconsMenu {
+  justify-content: center;
+  margin-top: 3rem;
+}
+.offcanvas-backdrop.show {
+  opacity: 0;
+}
+.modal-content {
+  background-color: #85dcee;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-radius: 0.75rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.modal-header {
+  border-bottom: 0px;
+}
+.bodyText h4 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-family: Squada One, cursive;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.bodyText button {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 0 solid;
+  background-color: rgba(182, 88, 255, 0.9);
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.bodyText {
+  padding: 4rem;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-header {
+  padding: 0;
+  margin-bottom: -16px;
+}
+.modal-header button {
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+  margin-bottom: -26px !important;
+  z-index: 999;
+}
+@media only screen and (max-width: 351px) {
+  .mobileicons {
+    margin-top: -65px;
+  }
+  .minitbody {
+    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }

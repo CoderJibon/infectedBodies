@@ -20,12 +20,23 @@ const TheSpecs = () => {
                                 <img src="/TheSpecs/zombiePreview3.webp" alt="" />
                                 <img src="/TheSpecs/zombiePreview4.webp" alt="" />
                             </div>
+                            <div className='forMobile'>
+                                   <img src="/TheSpecs/zombiePreview1.webp" alt="" />
+                            </div>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <div className='spaecsBg'>
+                            <h3>
+                                <span>MINT</span> an Infected Body
+                            </h3>
+                            <Link href="/mint">
+                                <button className='mint' >MINT</button>
+                            </Link>
+                        </div>
+                        <div className='spacesMobile'>
                             <h3>
                                 <span>MINT</span> an Infected Body
                             </h3>

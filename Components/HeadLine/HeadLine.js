@@ -12,7 +12,8 @@ const HeadLine = () => {
                             <div className='lineHight'></div>
                            <div className='logo'>
                                 <div className='logoBox'>
-                                <Image src="/skull.png" width="100" height="100" />
+                                    <Image className='desktop' src="/skull.png" width="100" height="100" />
+                                    <img className='mobile' src="/skull.png" alt="" />
                                 </div>
                             </div>
                             <div className='lineHight'></div>
