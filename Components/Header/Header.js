@@ -9,7 +9,7 @@ const Header = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-    
+   
     return (
         <>
             <header className='header'>
@@ -73,11 +73,11 @@ const Header = () => {
              <Offcanvas show={show} onHide={handleClose} placement="end">
                 <div>
                      <div className='offmenuBox' >
-                        <nav className='offmenu'>
-                            <Link href="/mint" >Mint</Link>
-                            <Link href="/#roadmap" >Road Map</Link>
-                            <Link href="/#team" >Team</Link>
-                            <Link href="/" >Collection</Link>
+                        <nav onClick={handleClose} className='offmenu'>
+                            <Link  href="/mint" >Mint</Link>
+                            <Link  href="/#roadmap" >Road Map</Link>
+                            <Link  href="/#team" >Team</Link>
+                            <Link  href="/" >Collection</Link>
                         </nav>
                         <div className='iconsMenu'>
                             <div className='iconsBox'>

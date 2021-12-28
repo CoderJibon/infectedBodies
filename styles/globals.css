@@ -584,6 +584,7 @@ button.mint:hover {
   top: 10px;
   transform: rotate(39deg);
   opacity: 0.7;
+  cursor: pointer;
 }
 .closeIcons::before {
   content: "";
@@ -595,6 +596,7 @@ button.mint:hover {
   top: 10px;
   transform: rotate(137deg);
   opacity: 0.7;
+  cursor: pointer;
 }
 .closeIcons div {
   background-color: transparent !important;
